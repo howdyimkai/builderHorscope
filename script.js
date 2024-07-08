@@ -40,11 +40,17 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('horoscopeOutput').innerHTML = "You're a Gemini! You’re on the path to creating a family-oriented social media app that brings loved ones closer together.";
     } else if (selectedMonth == "June" && randomNumber == 3) { //  Corrected to selectedMonth
       document.getElementById('horoscopeOutput').innerHTML = "You're a Gemini! Your nurturing nature will result in a top-rated parenting app that offers advice and community support.";
-    } else if (selectedMonth == "July" && randomNumber == 1) { //  Corrected to selectedMonth
+      } else if (selectedMonth == "July" && randomNumber == 1) { //  Corrected to selectedMonth
+        document.getElementById('horoscopeOutput').innerHTML = "You're a Cancer! Your empathetic approach will lead to a mental health app that provides daily support and resources.";
+      } else if (selectedMonth == "July" && randomNumber == 2) { //  Corrected to selectedMonth
+        document.getElementById('horoscopeOutput').innerHTML = "You're a Cancer! You’re on the path to creating a family-oriented social media app that brings loved ones closer together.";
+      } else if (selectedMonth == "July" && randomNumber == 3) { //  Corrected to selectedMonth
+        document.getElementById('horoscopeOutput').innerHTML = "You're a Cancer! Your nurturing nature will result in a top-rated parenting app that offers advice and community support.";
+    } else if (selectedMonth == "August" && randomNumber == 1) { //  Corrected to selectedMonth
       document.getElementById('horoscopeOutput').innerHTML = "You're a Leo! Your charismatic personality will fuel a new video-sharing platform that highlights creative talents.";
-    } else if (selectedMonth == "July" && randomNumber == 2) { //  Corrected to selectedMonth
+    } else if (selectedMonth == "August" && randomNumber == 2) { //  Corrected to selectedMonth
       document.getElementById('horoscopeOutput').innerHTML = "You're a Leo! You’re about to launch an influencer marketing platform that connects brands with rising stars.";
-    } else if (selectedMonth == "July" && randomNumber == 3) { //  Corrected to selectedMonth
+    } else if (selectedMonth == "August" && randomNumber == 3) { //  Corrected to selectedMonth
       document.getElementById('horoscopeOutput').innerHTML = "You're a Leo! Your next venture will be a motivational app that inspires users to pursue their passions and dreams.";
     } else if (selectedMonth == "September" && randomNumber == 1) { //  Corrected to selectedMonth
       document.getElementById('horoscopeOutput').innerHTML = "You're a Virgo! Your attention to detail will make your productivity app the go-to tool for professionals.";
