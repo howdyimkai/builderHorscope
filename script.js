@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('getHoroscope').addEventListener('click', function() {
     let monthSelect = document.getElementById('month');
     let selectedMonth = monthSelect.value;
-    let randomNumber = Math.floor(Math.random() * 4) + 1; // Generate a number from 1 to 4
+    let randomNumber = Math.floor(Math.random() * 3) + 1; // Generate a number from 1 to 3
 
     if (selectedMonth == "January" && randomNumber == 1) {
       document.getElementById('horoscopeOutput').innerHTML = "You're a capricorn builder! Your disciplined approach will result in a career development app that helps users climb the corporate ladder.";
