@@ -1,0 +1,72 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center; /* Center the text */
+}
+
+p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, blue, pink); /* Standard syntax */
+  background: -webkit-linear-gradient(to right, blue, pink); /* For Safari */
+  background: -moz-linear-gradient(to right, blue, pink); /* For Firefox */
+}
+
+
+.wholePage {
+    display: flex;
+    height: 200px;
+  }
+
+.selectHorscope {
+    width:50%;
+    height: 200px;
+    padding: 25px;
+    background-color: #a990e4;
+    border-radius: 25px;
+  margin-right: 30px;
+  }
+
+.horoscope {
+    width: 50%;
+    height: 200px;
+    padding: 25px;
+    background-color: #f3e2e3;
+    border-radius: 25px;
+
+}
+
+#horoscopeOutput {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+}
+
+#month {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px; /* Adjust the value to control spacing */
+}
+
+label[for="month"] {
+  font-family: 'Arial', sans-serif;
+}
+
+#getHoroscope {
+  background-color: #2e144d; /* Green background */
+  border: none;           /* Remove default border */
+  color: white;            /* White text */
+  padding: 15px 100px;     /* Add padding */
+  width: 90%;
+  text-align: center;     /* Center text */
+  text-decoration: none;  /* Remove text decoration (underline) */
+  display: inline-block;  /* Make it a block-level element */
+  font-size: 16px;         /* Adjust font size */
+  cursor: pointer;        /* Change cursor to pointer on hover */
+  border-radius: 5px;     /* Add rounded corners */
+}
+
+#getHoroscope:hover {
+  background-color: #db8680; /* Darker green on hover */
+}
