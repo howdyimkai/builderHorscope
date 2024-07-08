@@ -26,7 +26,8 @@ body {
     padding: 25px;
     background-color: #a990e4;
     border-radius: 25px;
-  margin-right: 30px;
+    margin-right: 30px;
+  margin-left: 80px;
   }
 
 .horoscope {
@@ -35,6 +36,7 @@ body {
     padding: 25px;
     background-color: #f3e2e3;
     border-radius: 25px;
+   margin-right: 80px;
 
 }
 
